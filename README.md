@@ -1,1 +1,1 @@
-# riscv_single_cycle
+# RISCV Single Cycle
