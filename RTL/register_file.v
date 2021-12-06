@@ -14,7 +14,7 @@ reg [DWIDTH-1:0] array[0:31];//
 assign Data_A = Addr_A?array[Addr_A]:0;
 assign Data_B = Addr_B?array[Addr_B]:0;
 
-always@(posedge clk)
+always@(negedge clk)
 begin
 	array[0]=0;
 	 if(wr)
